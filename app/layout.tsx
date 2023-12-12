@@ -1,8 +1,15 @@
-import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
-import './globals.css'
+import type { Metadata } from 'next';
+import { Inter, Dancing_Script } from 'next/font/google';
+import './globals.css';
+import TopNav from './components/TopNav';
+import BottomFooter from './components/BottomFooter';
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ['latin'] });
+
+const petsFonts = Dancing_Script({
+  weight: ['400', '500', '600', '700',],
+  subsets: ['latin'],
+});
 
 export const metadata: Metadata = {
   title: 'Pets em Pontos',
@@ -16,7 +23,21 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+
+        <nav className={petsFonts.className}>
+          <TopNav />
+        </nav>
+
+        <main>
+          {children}
+        </main>
+
+        <footer>
+          <BottomFooter />
+        </footer>
+
+      </body>
     </html>
   )
 }
