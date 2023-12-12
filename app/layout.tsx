@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { Inter, Dancing_Script } from 'next/font/google';
 import './globals.css';
+
 import TopNav from './components/TopNav';
 import BottomFooter from './components/BottomFooter';
 
@@ -30,7 +31,7 @@ export default function RootLayout({
         </nav>
 
         <main>
-          {children}
+          {children}          
         </main>
 
         <footer>
