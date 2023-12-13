@@ -30,7 +30,7 @@ export default function RootLayout({
           <TopNav />
         </nav>
 
-        <main>
+        <main className={petsFonts.className}>
           {children}          
         </main>
 
