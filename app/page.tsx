@@ -13,10 +13,10 @@ export default function Home() {
                   className="mx-auto rounded-xl
                             shadow-md shadow-violet-300"/>
 
-          <div className=" mx-auto mt-4 text-center w-60 bg-violet-700 rounded-xl p-2
+          <div className=" mx-auto mt-4 text-center w-60 bg-violet-200 rounded-xl p-2
                           drop-shadow-xl shadow-violet-800">
             <Link href="">
-              <p className="text-violet-50" >Acione aqui para ver meus amiguinhos</p>
+              <p className="text-violet-900 text-xl" >Meus amiguinhos</p>
             </Link>
           </div>               
         

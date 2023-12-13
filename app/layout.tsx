@@ -34,7 +34,7 @@ export default function RootLayout({
           {children}          
         </main>
 
-        <footer className={petsFonts.className}>
+        <footer className={inter.className}>
           <BottomFooter />
         </footer>
 

@@ -2,8 +2,8 @@ const BottomFooter = () => {
   return (
     <div className="">
         <div className=" bg-violet-900 min-w-full">
-            <div className = "py-2 mx-auto  text-2xl text-center text-yellow-50"> 
-                As agulhas da Silvinha
+            <div className = "pt-8 pb-2 mx-auto  text-xs text-right pr-4 text-yellow-50"> 
+                Design by P61st
             </div>
         </div>
     </div>
