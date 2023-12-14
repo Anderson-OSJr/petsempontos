@@ -1,4 +1,7 @@
 import Image from "next/image"
+import Link from "next/link"
+
+
 const TopNav = () => {
   return (   
     
@@ -13,7 +16,7 @@ const TopNav = () => {
                                 className="mx-auto my-auto"/>
 
                 <div className = "pt-4 pb-2 mx-auto  text-5xl text-center text-violet-700 [text-shadow:3px_3px_2px_var(--tw-shadow-color)] shadow-violet-300">
-                                  Pets em Pontos 
+                                  <Link href="/">Pets em Pontos</Link> 
                 </div>
 
                 <Image  src="/images/coracao.png"
