@@ -20,7 +20,7 @@ const MeusAmiguinhos = () => {
                             shadow-md shadow-violet-300
                             mb-8"/>
 
-          <Image  src="/images/amiguinhos/sonikinho.jpg"
+          <Image  src="/images/amiguinhos/sonikinho.png"
                   width={240}
                   height={300}
                   alt="Sonikinho"
